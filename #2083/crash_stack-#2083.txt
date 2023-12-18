@@ -1,0 +1,20 @@
+2023-12-18 19:26:10.247  1155-2137  bamg                    com.google.android.gms.persistent    E  Phenotype API error. Event # cvwv@1a1b827f, EventCode: 17 [CONTEXT service_id=51 ]
+                                                                                                    bali: 29504: Network error
+                                                                                                    	at baor.F(:com.google.android.gms@221821047@22.18.21 (190800-453244992):218)
+                                                                                                    	at baor.o(:com.google.android.gms@221821047@22.18.21 (190800-453244992):61)
+                                                                                                    	at baor.C(:com.google.android.gms@221821047@22.18.21 (190800-453244992):0)
+                                                                                                    	at baor.p(:com.google.android.gms@221821047@22.18.21 (190800-453244992):1)
+                                                                                                    	at bann.g(:com.google.android.gms@221821047@22.18.21 (190800-453244992):10)
+                                                                                                    	at bamg.e(:com.google.android.gms@221821047@22.18.21 (190800-453244992):4)
+                                                                                                    	at bamg.f(:com.google.android.gms@221821047@22.18.21 (190800-453244992):2)
+                                                                                                    	at agfo.el(:com.google.android.gms@221821047@22.18.21 (190800-453244992):1)
+                                                                                                    	at agfu.run(:com.google.android.gms@221821047@22.18.21 (190800-453244992):11)
+                                                                                                    	at cdgo.run(:com.google.android.gms@221821047@22.18.21 (190800-453244992):2)
+                                                                                                    	at wwq.c(:com.google.android.gms@221821047@22.18.21 (190800-453244992):6)
+                                                                                                    	at wwq.run(:com.google.android.gms@221821047@22.18.21 (190800-453244992):7)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+                                                                                                    	at xbv.run(:com.google.android.gms@221821047@22.18.21 (190800-453244992):0)
+                                                                                                    	at java.lang.Thread.run(Thread.java:1012)
+                                                                                                    Caused by: ev: Exception in CronetUrlRequest: net::ERR_TIMED_OUT, ErrorCode=4, InternalErrorCode=-7, Retryable=true
+                                                                                                    	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@221821104@22.18.21 (190800-0):4)
